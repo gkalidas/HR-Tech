@@ -1,0 +1,26 @@
+Write a Django + VueJS application. 
+
+Features to include:
+# A super admin can create users of types client and service provider
+# Service providers can post their services on the website
+# Clients can see these posts made by all the service providers
+# Clients can contact the service providers (add a `contact me` button on every post and an email should go to service providers. Use any of async libraries for this (example: celery, rq). You dont have to send real emails, use console backend to print the email bodies) 
+# Service providers can see their own posts only
+# User needs to login to do any actions on the website
+
+Keep in mind:
+- Backend should use django (version > 2.0) and django rest framework
+- Make sure you follow PEP8 and ESLint to format your code.
+# frontend should use VueJS along with basic HTML + CSS, we dont need fancy UI. Only the skeleton is fine.
+# Brownie points if you write some unit tests and a happy Travis-CI.
+- Create a github repo and 
+# share this repo when you are done.
+
+# # Which features of Django framework to include in your code:
+# Write Class based views
+# Write Viewset (DRF feature)
+# User authentication
+# Logging
+# Serializers (DRF feature) 
+# Use of filterset
+# Also use VueJS features such as filters, directives etc.
