@@ -1,14 +1,12 @@
 # HR-Tech
-Combining Django and VueJS.
+Combining Django and VueJS. 
 
-Getting started with project.
+Getting started with project. 
 
 <!-- start VueJS server -->
-cd hrTech
-
-npm run dev
+cd hrTech 
+npm run dev 
 
 <!-- start Django server -->
-cd hr_tech
-
-python manage.py runserver
+cd hr_tech 
+python manage.py runserver 
